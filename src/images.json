@@ -1,0 +1,2673 @@
+{
+ "su01-alvorada": {
+  "w": 927,
+  "h": 1382,
+  "widths": [
+   480,
+   927
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU01_Alvorada.jpg",
+  "color": "rgb(232,216,168)"
+ },
+ "su03-almond-tree": {
+  "w": 843,
+  "h": 1310,
+  "widths": [
+   480,
+   843
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU03_Almond-tree-e1767885865443.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "il01-ese-verano-a-oscuras-1": {
+  "w": 1350,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1350
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL01_Ese-verano-a-oscuras_1.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "il03-sakura-restaurant": {
+  "w": 1076,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1076
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL03_Sakura-restaurant.jpg",
+  "color": "rgb(24,24,40)"
+ },
+ "bar": {
+  "w": 1500,
+  "h": 1036,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Bar.jpg",
+  "color": "rgb(120,72,56)"
+ },
+ "su02-unique-people": {
+  "w": 1500,
+  "h": 1494,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "su26-cortile": {
+  "w": 1133,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1133
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU26_Cortile.jpg",
+  "color": "rgb(136,136,104)"
+ },
+ "il02-creatures-of-barcelona": {
+  "w": 1634,
+  "h": 2036,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL02_Creatures-of-Barcelona.jpg",
+  "color": "rgb(40,24,24)"
+ },
+ "il04-barcelona-ii": {
+  "w": 1121,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1121
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL04_Barcelona-II.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "il05-mediterraneo": {
+  "w": 1129,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1129
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL05_Mediterraneo.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "il01-ese-verano-a-oscuras-2": {
+  "w": 1357,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1357
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL01_Ese-verano-a-oscuras_2.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "il06-moonlight": {
+  "w": 1500,
+  "h": 1051,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL06_Moonlight.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su06-clavelitos": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "su07-villa": {
+  "w": 1748,
+  "h": 2246,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-e1767886070442.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su08-palms-view": {
+  "w": 1500,
+  "h": 1030,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU08_Palms-view.jpg",
+  "color": "rgb(184,136,72)"
+ },
+ "su27-flos-ii": {
+  "w": 1500,
+  "h": 1396,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU27_Flos-II.jpg",
+  "color": "rgb(184,168,152)"
+ },
+ "piscine": {
+  "w": 1500,
+  "h": 1014,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Piscine.jpg",
+  "color": "rgb(232,216,200)"
+ },
+ "il07-film-the-living-record-of-our-memory": {
+  "w": 1124,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1124
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL07_Film-the-living-record-of-our-memory.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "il09-femme-fatale": {
+  "w": 1085,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1085
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL09_Femme-Fatale.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "il11-la-plaza": {
+  "w": 1061,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1061
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL11_La-plaza.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "il10-gent": {
+  "w": 1500,
+  "h": 1078,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL10_Gent.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "il12-utrus-horas": {
+  "w": 1500,
+  "h": 1116,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL12_Utrus-Horas.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "il13-terraza": {
+  "w": 1500,
+  "h": 1067,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL13_Terraza.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "il08-friends": {
+  "w": 1026,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1026
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL08_Friends.jpg",
+  "color": "rgb(72,72,72)"
+ },
+ "subway-ut5404-6": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Subway_UT5404-6.jpg",
+  "color": "rgb(24,24,8)"
+ },
+ "il14-people-flow-0": {
+  "w": 1491,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL14_People-Flow-0.jpg",
+  "color": "rgb(40,24,8)"
+ },
+ "silvestre2-repeat": {
+  "w": 1279,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1279
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Silvestre2_repeat.jpg",
+  "color": "rgb(40,40,40)"
+ },
+ "petal-strewn-silver": {
+  "w": 2500,
+  "h": 1813,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/petal-strewn-silver.jpg",
+  "color": "rgb(40,72,72)"
+ },
+ "su04-grenade": {
+  "w": 1500,
+  "h": 1183,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU04_Grenade.jpg",
+  "color": "rgb(184,184,168)"
+ },
+ "vibes-ut5402-6": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-6.jpg",
+  "color": "rgb(56,88,72)"
+ },
+ "su18-solane-plate": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU18_Solane-Plate.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "su09-ancient": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU09_Ancient.jpg",
+  "color": "rgb(152,56,40)"
+ },
+ "lilac3-repeat": {
+  "w": 1151,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1151
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Lilac3_repeat.jpg",
+  "color": "rgb(216,184,168)"
+ },
+ "su38-terraceo-3": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-3.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "su28-camp-blau-1": {
+  "w": 1073,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1073
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-1.jpg",
+  "color": "rgb(72,72,72)"
+ },
+ "su23-solane-chairs-1": {
+  "w": 1206,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1206
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU23_Solane-Chairs-1.jpg",
+  "color": "rgb(216,216,200)"
+ },
+ "su30-bananeira-1": {
+  "w": 1500,
+  "h": 1113,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-1.jpg",
+  "color": "rgb(136,136,88)"
+ },
+ "su10-backyard": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1200
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU10_Backyard.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "su36-fresh-lemons-1": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-1.jpg",
+  "color": "rgb(248,248,216)"
+ },
+ "su25-calendula-2": {
+  "w": 1105,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1105
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU25_Calendula-2.jpg",
+  "color": "rgb(88,40,24)"
+ },
+ "su13-chrysanthemums": {
+  "w": 842,
+  "h": 1170,
+  "widths": [
+   480,
+   842
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU13_Chrysanthemums-e1767890010841.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "su39-andana-1": {
+  "w": 1500,
+  "h": 1117,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-1.jpg",
+  "color": "rgb(248,216,152)"
+ },
+ "su11-marla-cushions": {
+  "w": 1497,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU11_Marla-Cushions.jpg",
+  "color": "rgb(216,216,216)"
+ },
+ "su12-solane-cushions": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU12_Solane-Cushions.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "su15-lilium": {
+  "w": 889,
+  "h": 1095,
+  "widths": [
+   480,
+   889
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU15_Lilium.jpg",
+  "color": "rgb(40,40,40)"
+ },
+ "su35-tahiti-expression-1": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-1.jpg",
+  "color": "rgb(56,56,40)"
+ },
+ "su29-monstera-1": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-1.jpg",
+  "color": "rgb(232,232,200)"
+ },
+ "su37-archaeological-forms-2": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-2.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "su33-nox-1": {
+  "w": 2500,
+  "h": 1618,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU33_Nox-1.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su19-sunset-plate": {
+  "w": 1492,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU19_Sunset-Plate.jpg",
+  "color": "rgb(56,56,56)"
+ },
+ "su34-jungle-arches-1": {
+  "w": 2500,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-1.jpg",
+  "color": "rgb(216,200,216)"
+ },
+ "su17-lagoon": {
+  "w": 1251,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1251
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU17_Lagoon.jpg",
+  "color": "rgb(168,200,168)"
+ },
+ "su20-pulp": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1200
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU20_Pulp.jpg",
+  "color": "rgb(104,88,120)"
+ },
+ "m5102-1-01": {
+  "w": 2500,
+  "h": 1750,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M5102-1_01.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "su22-septiembre": {
+  "w": 971,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   971
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU22_Septiembre.jpg",
+  "color": "rgb(104,88,72)"
+ },
+ "big-bang-silver": {
+  "w": 2500,
+  "h": 1813,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/big-bang-silver.jpg",
+  "color": "rgb(56,72,88)"
+ },
+ "m4314-3-bambu": {
+  "w": 1500,
+  "h": 877,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M4314-3_Bambu.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "su24-vine-flowers": {
+  "w": 1086,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1086
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU24_Vine-Flowers.jpg",
+  "color": "rgb(248,232,200)"
+ },
+ "su31-vergel-1": {
+  "w": 2500,
+  "h": 1274,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU31_Vergel-1.jpg",
+  "color": "rgb(216,152,88)"
+ },
+ "su32-morandi-2": {
+  "w": 2500,
+  "h": 1239,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU32_Morandi-2.jpg",
+  "color": "rgb(136,104,88)"
+ },
+ "su14-fierce": {
+  "w": 1087,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1087
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU14_Fierce.jpg",
+  "color": "rgb(24,24,24)"
+ },
+ "su21-roma": {
+  "w": 1183,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1183
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU21_Roma.jpg",
+  "color": "rgb(120,40,8)"
+ },
+ "su16-flos-i": {
+  "w": 1154,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1154
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU16_Flos-I.jpg",
+  "color": "rgb(200,184,168)"
+ },
+ "su36-fresh-lemons-2": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-2.jpg",
+  "color": "rgb(40,40,24)"
+ },
+ "su36-fresh-lemons-3": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-3.jpg",
+  "color": "rgb(248,248,216)"
+ },
+ "su36-fresh-lemons-4": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-4.jpg",
+  "color": "rgb(8,40,72)"
+ },
+ "su36-fresh-lemons-5": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-5.jpg",
+  "color": "rgb(168,104,72)"
+ },
+ "su36-fresh-lemons-6": {
+  "w": 1934,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-6.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "su36-fresh-lemons-7": {
+  "w": 1459,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU36_Fresh-Lemons-7.jpg",
+  "color": "rgb(104,72,40)"
+ },
+ "su07-villa-1": {
+  "w": 1748,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-1.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su07-villa-2": {
+  "w": 1748,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-2.jpg",
+  "color": "rgb(184,184,184)"
+ },
+ "su07-villa-3": {
+  "w": 1748,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-3.jpg",
+  "color": "rgb(152,152,136)"
+ },
+ "su07-villa-4": {
+  "w": 1748,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-4.jpg",
+  "color": "rgb(232,232,216)"
+ },
+ "su07-villa-5": {
+  "w": 1748,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-5.jpg",
+  "color": "rgb(216,216,216)"
+ },
+ "il14-people-flow-2": {
+  "w": 1500,
+  "h": 1399,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL14_People-Flow-2.jpg",
+  "color": "rgb(216,216,216)"
+ },
+ "su07-villa-6": {
+  "w": 1875,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU07_Villa-6.jpg",
+  "color": "rgb(24,40,24)"
+ },
+ "il14-people-flow-4": {
+  "w": 1500,
+  "h": 1198,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL14_People-Flow-4.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "il14-people-flow-3": {
+  "w": 1500,
+  "h": 1379,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL14_People-Flow-3.jpg",
+  "color": "rgb(216,216,216)"
+ },
+ "il14-people-flow-1": {
+  "w": 1500,
+  "h": 1100,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL14_People-Flow-1.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "il01-ese-verano-a-oscuras-3": {
+  "w": 1500,
+  "h": 851,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL01_Ese-verano-a-oscuras_3.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "subway-ut5404-4": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Subway_UT5404-4.jpg",
+  "color": "rgb(56,56,88)"
+ },
+ "petal-strewn-copper": {
+  "w": 2500,
+  "h": 1813,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/petal-strewn-copper.jpg",
+  "color": "rgb(56,56,56)"
+ },
+ "il01-ese-verano-a-oscuras-4": {
+  "w": 1499,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/IL01_Ese-verano-a-oscuras_4.jpg",
+  "color": "rgb(200,200,184)"
+ },
+ "petal-strewn-silver-r1": {
+  "w": 1860,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/petal-strewn-silver-r1.jpg",
+  "color": "rgb(56,24,8)"
+ },
+ "subway-ut5404-5": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Subway_UT5404-5.jpg",
+  "color": "rgb(152,152,136)"
+ },
+ "m4314-1-bambu": {
+  "w": 1500,
+  "h": 877,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M4314-1_Bambu.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "subway-ut5404-6-02": {
+  "w": 1352,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1352
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Subway_UT5404-6_02.jpg",
+  "color": "rgb(24,24,8)"
+ },
+ "m4314-2-bambu": {
+  "w": 1500,
+  "h": 877,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M4314-2_Bambu.jpg",
+  "color": "rgb(152,168,152)"
+ },
+ "m4314-3-04": {
+  "w": 2500,
+  "h": 1883,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M4314-3_04.jpg",
+  "color": "rgb(88,88,72)"
+ },
+ "su06-clavelitos-1": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-1.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "su06-clavelitos-2": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-2.jpg",
+  "color": "rgb(120,152,168)"
+ },
+ "su06-clavelitos-3": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-3.jpg",
+  "color": "rgb(168,152,136)"
+ },
+ "su06-clavelitos-4": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-4.jpg",
+  "color": "rgb(8,40,72)"
+ },
+ "su06-clavelitos-5": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-5.jpg",
+  "color": "rgb(168,56,40)"
+ },
+ "su06-clavelitos-6": {
+  "w": 2290,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-6.jpg",
+  "color": "rgb(216,200,184)"
+ },
+ "su06-clavelitos-7": {
+  "w": 2026,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU06_Clavelitos-7.jpg",
+  "color": "rgb(216,200,184)"
+ },
+ "vibes-ut5402-1": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-1.jpg",
+  "color": "rgb(168,88,56)"
+ },
+ "vibes-ut5402-4": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-4.jpg",
+  "color": "rgb(184,168,168)"
+ },
+ "vibes-ut5402-3": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-3.jpg",
+  "color": "rgb(232,216,200)"
+ },
+ "vibes-ut5402-2": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-2.jpg",
+  "color": "rgb(40,56,104)"
+ },
+ "vibes-ut5402-6-02": {
+  "w": 1216,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1216
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-6_02.jpg",
+  "color": "rgb(56,72,56)"
+ },
+ "vibes-ut5402-5": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/Vibes_UT5402-5.jpg",
+  "color": "rgb(184,152,56)"
+ },
+ "su37-archaeological-forms-1": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-1.jpg",
+  "color": "rgb(88,88,104)"
+ },
+ "su37-archaeological-forms-3": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-3.jpg",
+  "color": "rgb(168,136,56)"
+ },
+ "su37-archaeological-forms-4": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-4.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su37-archaeological-forms-5": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-5.jpg",
+  "color": "rgb(168,104,72)"
+ },
+ "su37-archaeological-forms-6": {
+  "w": 2181,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-6.jpg",
+  "color": "rgb(216,200,200)"
+ },
+ "su37-archaeological-forms-7": {
+  "w": 1864,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU37_Archaeological-Forms-7.jpg",
+  "color": "rgb(216,184,152)"
+ },
+ "su29-monstera-2": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-2.jpg",
+  "color": "rgb(56,72,40)"
+ },
+ "su29-monstera-3": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-3.jpg",
+  "color": "rgb(184,88,40)"
+ },
+ "su29-monstera-4": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-4.jpg",
+  "color": "rgb(72,88,120)"
+ },
+ "su29-monstera-6": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-6.jpg",
+  "color": "rgb(40,40,40)"
+ },
+ "su29-monstera-5": {
+  "w": 1250,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1250
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-5.jpg",
+  "color": "rgb(232,232,200)"
+ },
+ "su29-monstera-7-scaled": {
+  "w": 2471,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU29_Monstera-7-scaled-e1767884379683.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su28-camp-blau-2": {
+  "w": 1073,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1073
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-2.jpg",
+  "color": "rgb(56,40,40)"
+ },
+ "su28-camp-blau-3": {
+  "w": 1073,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1073
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-3.jpg",
+  "color": "rgb(120,120,88)"
+ },
+ "su28-camp-blau-4": {
+  "w": 1073,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1073
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-4.jpg",
+  "color": "rgb(136,136,136)"
+ },
+ "su28-camp-blau-5": {
+  "w": 1069,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1069
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-5.jpg",
+  "color": "rgb(200,184,152)"
+ },
+ "big-bang-coal": {
+  "w": 2500,
+  "h": 1813,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/big-bang-coal.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su32-morandi-1": {
+  "w": 2500,
+  "h": 1239,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU32_Morandi-1.jpg",
+  "color": "rgb(200,184,152)"
+ },
+ "big-bang-silver-r": {
+  "w": 1401,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1401
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/big-bang-silver-r.jpg",
+  "color": "rgb(24,8,8)"
+ },
+ "su28-camp-blau-6": {
+  "w": 1803,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU28_Camp-Blau-6.jpg",
+  "color": "rgb(216,216,200)"
+ },
+ "su32-morandi-3": {
+  "w": 2500,
+  "h": 1239,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU32_Morandi-3.jpg",
+  "color": "rgb(184,136,104)"
+ },
+ "su34-jungle-arches-2": {
+  "w": 2500,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-2.jpg",
+  "color": "rgb(232,216,200)"
+ },
+ "su32-morandi-4": {
+  "w": 2500,
+  "h": 1667,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU32_Morandi-4.jpg",
+  "color": "rgb(136,104,88)"
+ },
+ "su34-jungle-arches-3": {
+  "w": 2500,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-3.jpg",
+  "color": "rgb(152,88,56)"
+ },
+ "su34-jungle-arches-4": {
+  "w": 2500,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-4.jpg",
+  "color": "rgb(232,216,184)"
+ },
+ "su34-jungle-arches-5": {
+  "w": 2500,
+  "h": 1247,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-5.jpg",
+  "color": "rgb(248,216,200)"
+ },
+ "su08-palms-view-1": {
+  "w": 1500,
+  "h": 1030,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU08_Palms-view-1.jpg",
+  "color": "rgb(184,136,72)"
+ },
+ "su34-jungle-arches-6": {
+  "w": 2500,
+  "h": 2165,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU34_Jungle-Arches-6.jpg",
+  "color": "rgb(136,120,120)"
+ },
+ "su08-palms-view-2": {
+  "w": 2500,
+  "h": 1717,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU08_Palms-View-2.jpg",
+  "color": "rgb(72,72,72)"
+ },
+ "su08-palms-view-3": {
+  "w": 2500,
+  "h": 1717,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU08_Palms-View-3.jpg",
+  "color": "rgb(40,40,40)"
+ },
+ "su08-palms-view-4": {
+  "w": 2500,
+  "h": 1667,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU08_Palms-View-4.jpg",
+  "color": "rgb(120,120,104)"
+ },
+ "su30-bananeira-2": {
+  "w": 1500,
+  "h": 1113,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-2.jpg",
+  "color": "rgb(40,56,120)"
+ },
+ "su30-bananeira-3": {
+  "w": 1500,
+  "h": 1113,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-3.jpg",
+  "color": "rgb(200,168,152)"
+ },
+ "su30-bananeira-5": {
+  "w": 1500,
+  "h": 1113,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-5.jpg",
+  "color": "rgb(56,56,40)"
+ },
+ "su30-bananeira-4": {
+  "w": 1500,
+  "h": 1113,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-4.jpg",
+  "color": "rgb(200,184,152)"
+ },
+ "su30-bananeira-6-scaled": {
+  "w": 2500,
+  "h": 1720,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU30_Bananeira-6-scaled-e1767884309529.jpg",
+  "color": "rgb(56,56,24)"
+ },
+ "m5102-3-01": {
+  "w": 2500,
+  "h": 1750,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M5102-3_01.jpg",
+  "color": "rgb(248,232,216)"
+ },
+ "m5102-2-01": {
+  "w": 2500,
+  "h": 1750,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M5102-2_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "m5102-4-01": {
+  "w": 2500,
+  "h": 1750,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M5102-4_01.jpg",
+  "color": "rgb(216,200,200)"
+ },
+ "su35-tahiti-expression-2": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-2.jpg",
+  "color": "rgb(200,120,56)"
+ },
+ "su35-tahiti-expression-3": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-3.jpg",
+  "color": "rgb(152,168,136)"
+ },
+ "m5102-1-02": {
+  "w": 2282,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/M5102-1_02.jpg",
+  "color": "rgb(216,200,168)"
+ },
+ "su35-tahiti-expression-4": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-4.jpg",
+  "color": "rgb(216,200,184)"
+ },
+ "su35-tahiti-expression-5": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-5.jpg",
+  "color": "rgb(152,168,136)"
+ },
+ "su35-tahiti-expression-6": {
+  "w": 2120,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-6.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "su31-vergel-2": {
+  "w": 2500,
+  "h": 1274,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU31_Vergel-2.jpg",
+  "color": "rgb(136,104,72)"
+ },
+ "su35-tahiti-expression-7": {
+  "w": 1764,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU35_Tahiti-Expression-7.jpg",
+  "color": "rgb(72,56,24)"
+ },
+ "su31-vergel-3": {
+  "w": 2500,
+  "h": 1274,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU31_Vergel-3.jpg",
+  "color": "rgb(184,184,168)"
+ },
+ "su31-vergel-4": {
+  "w": 2500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU31_Vergel-4.jpg",
+  "color": "rgb(88,56,40)"
+ },
+ "su38-terraceo-1": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-1.jpg",
+  "color": "rgb(8,56,88)"
+ },
+ "su38-terraceo-2": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-2.jpg",
+  "color": "rgb(88,88,40)"
+ },
+ "su38-terraceo-6": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-6.jpg",
+  "color": "rgb(168,152,136)"
+ },
+ "su38-terraceo-4": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-4.jpg",
+  "color": "rgb(136,40,56)"
+ },
+ "su38-terraceo-5": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-5.jpg",
+  "color": "rgb(248,232,232)"
+ },
+ "su38-terraceo-7": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-7.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su38-terraceo-8": {
+  "w": 2500,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-8.jpg",
+  "color": "rgb(200,88,72)"
+ },
+ "su23-solane-chairs-2": {
+  "w": 1442,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU23_Solane-Chairs-2.jpg",
+  "color": "rgb(232,216,200)"
+ },
+ "su38-terraceo-9": {
+  "w": 1790,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU38_Terraceo-9.jpg",
+  "color": "rgb(168,152,136)"
+ },
+ "su39-andana-2": {
+  "w": 1500,
+  "h": 1122,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-2.jpg",
+  "color": "rgb(200,184,152)"
+ },
+ "su23-solane-chairs-3": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU23_Solane-Chairs-3.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "su23-solane-chairs-4": {
+  "w": 1500,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU23_Solane-Chairs-4.jpg",
+  "color": "rgb(40,40,40)"
+ },
+ "su39-andana-6": {
+  "w": 1500,
+  "h": 1122,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-6.jpg",
+  "color": "rgb(72,72,88)"
+ },
+ "su39-andana-3": {
+  "w": 1500,
+  "h": 1122,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-3.jpg",
+  "color": "rgb(168,152,136)"
+ },
+ "su39-andana-4": {
+  "w": 1500,
+  "h": 1117,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-4.jpg",
+  "color": "rgb(152,120,104)"
+ },
+ "su39-andana-8": {
+  "w": 1200,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1200
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-8.jpg",
+  "color": "rgb(88,88,72)"
+ },
+ "su39-andana-5": {
+  "w": 1500,
+  "h": 1122,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-5.jpg",
+  "color": "rgb(56,40,24)"
+ },
+ "su39-andana-7": {
+  "w": 1500,
+  "h": 1122,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU39_Andana-7.jpg",
+  "color": "rgb(40,24,24)"
+ },
+ "su02-unique-people-2": {
+  "w": 1500,
+  "h": 1494,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people-2.jpg",
+  "color": "rgb(152,40,40)"
+ },
+ "su02-unique-people-3": {
+  "w": 1500,
+  "h": 1494,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people-3.jpg",
+  "color": "rgb(40,72,136)"
+ },
+ "su02-unique-people-4": {
+  "w": 1500,
+  "h": 1494,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people-4.jpg",
+  "color": "rgb(72,104,88)"
+ },
+ "su02-unique-people-5": {
+  "w": 1500,
+  "h": 1494,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people-5.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "su33-nox-2": {
+  "w": 2500,
+  "h": 1618,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU33_Nox-2.jpg",
+  "color": "rgb(88,104,104)"
+ },
+ "su33-nox-3": {
+  "w": 2500,
+  "h": 1618,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU33_Nox-3.jpg",
+  "color": "rgb(168,184,184)"
+ },
+ "su33-nox-4": {
+  "w": 2500,
+  "h": 1618,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU33_Nox-4.jpg",
+  "color": "rgb(232,216,200)"
+ },
+ "c25-t-01-cortile-01-1": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_01_Cortile_01-1.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "su02-unique-people-6": {
+  "w": 1667,
+  "h": 2500,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU02_Unique-people-6.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "c25-t-01-cortile-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_01_Cortile_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "su33-nox-5": {
+  "w": 2500,
+  "h": 1875,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/SU33_Nox-5.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "c25-t-01-cortile-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_01_Cortile_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-12-orange-tree-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_12_Orange-Tree_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-12-orange-tree-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_12_Orange-Tree_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-12-orange-tree-3": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_12_Orange-Tree_3.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-09-antient-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_09_Antient_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-09-antient-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_09_Antient_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-13-vineflowers-01": {
+  "w": 1186,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1186
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_13_VineFlowers_01.jpg",
+  "color": "rgb(216,216,216)"
+ },
+ "c21-t-09-antient-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_09_Antient_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-13-vineflowers-02": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_13_VineFlowers_02.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-02-flos-i-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_02_Flos-I_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c25-t-08-lilac-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_08_Lilac_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c25-t-02-flos-i-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_02_Flos-I_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-02-flos-i-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_02_Flos-I_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-04-lilium-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_04_Lilium_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c25-t-08-lilac-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_08_Lilac_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-08-lilac-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_08_Lilac_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-04-lilium-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_04_Lilium_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-04-lilium-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_04_Lilium_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-10-fall-ii-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_10_Fall-II_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-10-fall-ii-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_10_Fall-II_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-11-calere-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_11_Calere_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-10-fall-ii-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_10_Fall-II_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-11-calere-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_11_Calere_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-11-calere-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_11_Calere_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-03-lagoon-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_03_Lagoon_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c25-t-05-grenade-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_05_Grenade_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c25-t-06-flos-ii-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_06_Flos-II_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c21-t-03-lagoon-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_03_Lagoon_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-03-lagoon-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_03_Lagoon_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-05-grenade-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_05_Grenade_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-05-grenade-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_05_Grenade_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-06-flos-ii-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_06_Flos-II_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-06-flos-ii-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_06_Flos-II_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-03-calendula-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_03_Calendula_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c21-t-01-pulp-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_01_Pulp_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-01-pulp-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_01_Pulp_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-01-pulp-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_01_Pulp_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-03-calendula-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_03_Calendula_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-03-calendula-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_03_Calendula_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-07-fall-i-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_07_Fall-I_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-07-fall-i-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_07_Fall-I_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-07-fall-i-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_07_Fall-I_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-05-chrysantemus-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_05_Chrysantemus_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-05-chrysantemus-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_05_Chrysantemus_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-05-chrysantemus-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_05_Chrysantemus_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-06-ultramodern-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_06_Ultramodern_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c25-t-09-septiembre-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_09_Septiembre_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c21-t-06-ultramodern-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_06_Ultramodern_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-06-ultramodern-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_06_Ultramodern_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-09-septiembre-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_09_Septiembre_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-02-backyard-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_02_Backyard_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-02-backyard-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_02_Backyard_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-02-backyard-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_02_Backyard_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c25-t-09-septiembre-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_09_Septiembre_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c21-t-08-clementine-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_08_Clementine_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-08-clementine-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_08_Clementine_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-08-clementine-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_08_Clementine_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-07-alvorada-01": {
+  "w": 944,
+  "h": 1500,
+  "widths": [
+   480,
+   944
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_07_Alvorada_01.jpg",
+  "color": "rgb(232,232,232)"
+ },
+ "c21-t-04-almond-tree-01": {
+  "w": 1196,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1196
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_04_Almond-Tree_01.jpg",
+  "color": "rgb(248,248,232)"
+ },
+ "c21-t-04-almond-tree-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_04_Almond-Tree_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "c21-t-04-almond-tree-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C21_T_04_Almond-Tree_03.jpg",
+  "color": "rgb(200,200,200)"
+ },
+ "c25-t-07-alvorada-02": {
+  "w": 1328,
+  "h": 1500,
+  "widths": [
+   480,
+   960,
+   1328
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_07_Alvorada_02.jpg",
+  "color": "rgb(248,248,248)"
+ },
+ "14e9c019-5ee4-4963-b840-e1b0c7b65b55": {
+  "w": 1120,
+  "h": 890,
+  "widths": [
+   480,
+   960,
+   1120
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/14e9c019-5ee4-4963-b840-e1b0c7b65b55-e1767888668492.jpg",
+  "color": "rgb(8,8,8)"
+ },
+ "c25-t-07-alvorada-03": {
+  "w": 1500,
+  "h": 1411,
+  "widths": [
+   480,
+   960,
+   1440
+  ],
+  "src": "https://www.heliatoledo.com/wp-content/uploads/C25_T_07_Alvorada_03.jpg",
+  "color": "rgb(200,200,200)"
+ }
+}

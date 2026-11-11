@@ -353,8 +353,12 @@ function syncDir(from, to) {
   }
 }
 // `--html-only` (used by `npm run dev`) skips the asset copy; the dev server reads public/ directly.
-if (!process.argv.includes('--html-only')) syncDir(path.join(ROOT, 'public'), DIST);
-else fs.mkdirSync(DIST, { recursive: true });
+if (!process.argv.includes('--html-only')) {
+  syncDir(path.join(ROOT, 'public'), DIST);
+  // version the panel's CSS/JS so a new deploy is never hidden behind a cached copy
+  const adminHtml = path.join(DIST, 'admin', 'index.html');
+  fs.writeFileSync(adminHtml, fs.readFileSync(adminHtml, 'utf8').replace(/\/admin\/admin\.(css|js)"/g, `/admin/admin.$1?v=${V}"`));
+} else fs.mkdirSync(DIST, { recursive: true });
 for (const [url, html] of out) {
   const file = url === '/404' ? path.join(DIST, '404.html') : path.join(DIST, url, 'index.html');
   fs.mkdirSync(path.dirname(file), { recursive: true });

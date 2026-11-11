@@ -30,6 +30,9 @@ for (const f of files) {
   for (const w of widths) {
     await sharp(file).rotate().resize({ width: w }).webp({ quality: 72, effort: 4 }).toFile(path.join(OUT, `${k}-${w}.webp`));
   }
+  // share-preview version (used when this image is the first one on a page)
+  fs.mkdirSync(path.join(ROOT, 'public/og'), { recursive: true });
+  await sharp(file).rotate().resize(1200, 630, { fit: 'cover', position: 'attention' }).jpeg({ quality: 76, mozjpeg: true }).toFile(path.join(ROOT, 'public/og', `${k}.jpg`));
   const { dominant } = await sharp(file).stats();
   manifest[k] = { w: meta.width, h: meta.height, widths, color: `rgb(${dominant.r},${dominant.g},${dominant.b})` };
   console.log(`${k}  (${widths.join(', ')})`);

@@ -47,7 +47,8 @@ const logo = fs.readFileSync(path.join(ROOT, 'public/img/logo-helia.svg'), 'utf8
 
 function page({ url, title, description, body, current = '', lang = 'en', ogImage, bodyClass = '', head = '' }) {
   const fullTitle = title ? `${title} — Helia Toledo` : 'Helia Toledo — Illustration & Surface Design';
-  const og = ogImage ? SITE_URL + src(ogImage, 1200) : SITE_URL + '/og.jpg';
+  // share previews use 1200×630 JPEGs (public/og/<key>.jpg); WebP isn't shown by every app
+  const og = SITE_URL + (ogImage && fs.existsSync(path.join(ROOT, 'public/og', ogImage + '.jpg')) ? `/og/${ogImage}.jpg` : '/og.jpg');
   return `<!doctype html>
 <html lang="${lang}">
 <head>
@@ -60,6 +61,10 @@ function page({ url, title, description, body, current = '', lang = 'en', ogImag
 <meta property="og:title" content="${esc(fullTitle)}">
 <meta property="og:description" content="${esc(description)}">
 <meta property="og:image" content="${og}">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:url" content="${SITE_URL}${url}">
+<meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FAFAF7">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
 <link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>

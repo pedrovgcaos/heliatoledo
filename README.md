@@ -20,7 +20,7 @@ Then open http://localhost:4321.
 npm run build
 ```
 
-The output goes to `dist/`. On Vercel, `vercel.json` already sets the build command, the output folder, cache headers and the redirects from the old WordPress addresses (`/proyecto/…`, `/pr-cat/…`, `/tienda/`), so existing links and search results keep working.
+The output goes to `dist/`. The site's public address (used for canonical links, share previews and the sitemap) comes from the `SITE_URL` environment variable and defaults to `https://www.heliatoledo.com`. On Vercel it's set under Settings → Environment Variables; change it there when the site moves to another domain, then redeploy. On Vercel, `vercel.json` already sets the build command, the output folder, cache headers and the redirects from the old WordPress addresses (`/proyecto/…`, `/pr-cat/…`, `/tienda/`), so existing links and search results keep working.
 
 ## Edit content
 

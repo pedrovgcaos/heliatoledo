@@ -5,7 +5,9 @@ import { fileURLToPath } from 'node:url';
 
 const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const DIST = path.join(ROOT, 'dist');
-const SITE_URL = 'https://www.heliatoledo.com';
+// Public address used for canonical links, share previews and the sitemap.
+// Set SITE_URL in the hosting environment (e.g. Vercel → Settings → Environment Variables).
+const SITE_URL = (process.env.SITE_URL || 'https://www.heliatoledo.com').replace(/\/$/, '');
 const C = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/content.json'), 'utf8'));
 const IMG = JSON.parse(fs.readFileSync(path.join(ROOT, 'src/images.json'), 'utf8'));
 const V = Date.now().toString(36); // cache-busting for css/js

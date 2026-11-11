@@ -156,7 +156,7 @@
         const err = cartEl.querySelector('.cart__error');
         t.disabled = true; t.textContent = 'Opening payment…'; err.hidden = true;
         try {
-          const r = await fetch('/api/checkout', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items }) });
+          const r = await fetch('/api/checkout/', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ items }) });
           const j = await r.json();
           if (!r.ok || !j.url) throw new Error(j.error || 'checkout');
           location.href = j.url;
@@ -168,7 +168,7 @@
       }
     });
     render();
-    fetch('/api/checkout').then(r => (r.ok ? r.json() : {})).then(j => { if (j.enabled) { mode = 'card'; render(); } }).catch(() => {});
+    fetch('/api/checkout/').then(r => (r.ok ? r.json() : {})).then(j => { if (j.enabled) { mode = 'card'; render(); } }).catch(() => {});
     addEventListener('pageshow', render);
     addEventListener('storage', e => { if (e.key === CART_KEY) { render(); updateCount(); } });
   }

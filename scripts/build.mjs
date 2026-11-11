@@ -67,9 +67,9 @@ function page({ url, title, description, body, current = '', lang = 'en', ogImag
 <meta name="twitter:card" content="summary_large_image">
 <meta name="theme-color" content="#FAFAF7">
 <link rel="icon" href="/favicon.svg" type="image/svg+xml">
-<link rel="preload" href="/fonts/bricolage.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/roboto.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/assets/site.css?v=${V}">${head}
-<script type="speculationrules">{"prerender":[{"where":{"href_matches":"/*"},"eagerness":"moderate"}]}</script>
+<script type="speculationrules">{"prerender":[{"where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/cart/*"}}]},"eagerness":"moderate"}]}</script>
 <script src="/assets/site.js?v=${V}" defer></script>
 </head>
 <body class="${bodyClass}">
@@ -77,7 +77,7 @@ function page({ url, title, description, body, current = '', lang = 'en', ogImag
 <header class="masthead">
   <a class="masthead__logo" href="/" aria-label="Helia Toledo, home">${logo}</a>
   <nav class="masthead__nav" aria-label="Main">
-    <ul>${NAV.map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('')}</ul>
+    <ul>${NAV.map(([h, l]) => `<li><a href="${h}"${current === h ? ' aria-current="page"' : ''}>${l}</a></li>`).join('')}<li><a class="masthead__cart" href="/cart/"${current === '/cart/' ? ' aria-current="page"' : ''}>cart<span class="masthead__count" data-cart-count hidden></span></a></li></ul>
   </nav>
 </header>
 <main id="main">
@@ -208,24 +208,100 @@ order.forEach((slug, i) => {
 });
 
 // Shop
+const money = n => `€${Number.isInteger(n) ? n : n.toFixed(2)}`;
+const minPrice = p => Math.min(...p.sizes.map(s => s.price));
+const maxPrice = p => Math.max(...p.sizes.map(s => s.price));
+const S = C.shopInfo;
 {
-  const body = `
-<header class="pagehead">
-  <h1 class="pagehead__title">Shop</h1>
-  <p class="pagehead__blurb">Tapestries printed from Helia’s original paintings, in three sizes. From €50.</p>
-</header>
-<ul class="shop" role="list">
-${C.shop.map((s, i) => `<li class="shop__item">
-  <a class="shop__link" href="${esc(s.url)}">
+  const card = (s, i) => `<li class="shop__item">
+  <a class="shop__link" href="/shop/${s.slug}/" data-vt="${s.slug}">
     ${img(s.images[0], { alt: '', sizes: '(min-width: 1100px) 23vw, (min-width: 640px) 31vw, 50vw', eager: i < 4 })}
     ${s.images[1] ? img(s.images[1], { alt: '', sizes: '(min-width: 1100px) 23vw, (min-width: 640px) 31vw, 50vw', cls: 'shop__alt' }) : ''}
     <span class="shop__name">${esc(s.title)}</span>
-    <span class="shop__price">Tapestry, from €${s.from}</span>
-    <span class="shop__sizes">${s.sizes.map(esc).join(', ')}</span>
+    <span class="shop__price">${money(minPrice(s))} – ${money(maxPrice(s))}</span>
   </a>
-</li>`).join('\n')}
-</ul>`;
-  emit('/shop/', page({ url: '/shop/', title: 'Shop', description: 'Tapestries by Helia Toledo, printed from original watercolour and gouache paintings. From €50.', body, current: '/shop/', ogImage: C.shop[0].images[0] }));
+</li>`;
+  const collections = [...new Set(C.shop.map(s => s.collection))].sort((a, b) => b - a);
+  let n = 0;
+  const body = `
+<header class="pagehead">
+  <h1 class="pagehead__title">Shop</h1>
+  <p class="pagehead__blurb">Tapestries printed on cotton canvas from Helia’s original paintings, each one handmade and signed. Three sizes, from ${money(Math.min(...C.shop.map(minPrice)))}.</p>
+</header>
+${collections.map(year => {
+    const items = C.shop.filter(s => s.collection === year);
+    return `<section class="shopgroup" aria-labelledby="c${year}">
+  <h2 class="section__title" id="c${year}">${year} collection <span class="shopgroup__count">${items.length} tapestries</span></h2>
+  <ul class="shop" role="list">
+${items.map(s => card(s, n++)).join('\n')}
+  </ul>
+</section>`;
+  }).join('\n')}`;
+  emit('/shop/', page({ url: '/shop/', title: 'Shop', description: `Tapestries by Helia Toledo, printed on cotton canvas from original watercolour and gouache paintings. Handmade and signed, from ${money(Math.min(...C.shop.map(minPrice)))}.`, body, current: '/shop/', ogImage: C.shop[0].images[0] }));
+}
+
+// Product pages
+C.shop.forEach((s, i) => {
+  const prev = C.shop[(i - 1 + C.shop.length) % C.shop.length];
+  const next = C.shop[(i + 1) % C.shop.length];
+  const first = s.sizes[0];
+  const body = `
+<article class="project product">
+  <div class="project__images">
+    ${s.images.map((k, j) => `<button class="project__img" type="button" data-view="${srcset(k)}" data-view-src="${src(k, 1600)}" data-caption="${esc(s.title)} tapestry, image ${j + 1} of ${s.images.length}" aria-label="View image ${j + 1} of ${s.images.length} larger">${img(k, { alt: `${s.title} tapestry, image ${j + 1} of ${s.images.length}`, sizes: '(min-width: 900px) 58vw, 100vw', eager: j === 0, attrs: j === 0 ? 'data-hero' : '' })}</button>`).join('\n    ')}
+  </div>
+  <aside class="project__info">
+    <p class="project__crumb"><a href="/shop/">Shop</a> <span aria-hidden="true">/</span> <a href="/shop/#c${s.collection}">${s.collection} collection</a></p>
+    <h1 class="project__title">${esc(s.title)}</h1>
+    <form class="buy" data-slug="${s.slug}" action="mailto:${C.site.email}" method="get">
+      <p class="buy__price" aria-live="polite">${money(first.price)}</p>
+      <fieldset class="buy__sizes">
+        <legend>Size</legend>
+        ${s.sizes.map((z, j) => `<label class="buy__size"><input type="radio" name="size" value="${esc(z.label)}" data-price="${z.price}"${j === 0 ? ' checked' : ''}><span>${esc(z.label)}</span><span class="buy__size-price">${money(z.price)}</span></label>`).join('\n        ')}
+      </fieldset>
+      <div class="buy__row">
+        <label class="buy__qty"><span>Quantity</span><input type="number" name="qty" value="1" min="1" max="10" inputmode="numeric"></label>
+        <button class="buy__add" type="submit">Add to cart</button>
+      </div>
+      <p class="buy__added" role="status" hidden>Added to your cart. <a href="/cart/">View cart</a></p>
+      <input type="hidden" name="subject" value="Order: ${esc(s.title)} tapestry">
+    </form>
+    <dl class="project__meta">
+      <div><dt>Material</dt><dd>${esc(cap(S.material))}</dd></div>
+      <div><dt>Collection</dt><dd>${s.collection}</dd></div>
+      <div><dt>Reference</dt><dd>${esc(s.sku)}</dd></div>
+      <div><dt>Shipping</dt><dd>10–15 days</dd></div>
+    </dl>
+    ${S.en.map(p => `<p class="project__text">${esc(p)}</p>`).join('\n    ')}
+    <div class="project__text project__text--es" lang="es">${S.es.map(p => `<p>${esc(p)}</p>`).join('')}</div>
+  </aside>
+</article>
+<nav class="pager" aria-label="More tapestries">
+  <a class="pager__prev" href="/shop/${prev.slug}/"><span>Previous</span>${esc(prev.title)}</a>
+  <a class="pager__next" href="/shop/${next.slug}/"><span>Next</span>${esc(next.title)}</a>
+</nav>`;
+  emit(`/shop/${s.slug}/`, page({ url: `/shop/${s.slug}/`, title: `${s.title} tapestry`, description: `${s.title}, a tapestry by Helia Toledo. ${cap(S.material)}, handmade and signed, ${s.collection} collection. ${s.sizes.map(z => `${z.label} ${money(z.price)}`).join(', ')}.`, body, current: '/shop/', ogImage: s.images[0] }));
+});
+
+// Cart + order confirmation (rendered client-side from the catalogue below)
+{
+  const catalogue = Object.fromEntries(C.shop.map(s => [s.slug, { title: s.title, thumb: src(s.images[0], 480), sizes: Object.fromEntries(s.sizes.map(z => [z.label, z.price])) }]));
+  const body = `
+<header class="pagehead">
+  <h1 class="pagehead__title">Cart</h1>
+</header>
+<section class="cart" data-cart data-email="${C.site.email}">
+  <p class="cart__empty">Your cart is empty. <a href="/shop/">Browse the tapestries</a></p>
+  <noscript><p>The cart needs JavaScript. To order without it, write to <a href="mailto:${C.site.email}">${C.site.email}</a> with the tapestry and size you’d like.</p></noscript>
+</section>
+<script type="application/json" id="catalogue">${JSON.stringify(catalogue).replace(/</g, '\\u003c')}</script>`;
+  emit('/cart/', page({ url: '/cart/', title: 'Cart', description: 'Your cart', body, current: '/cart/' }));
+
+  emit('/shop/thanks/', page({ url: '/shop/thanks/', title: 'Order confirmed', description: 'Thank you for your order', body: `
+<section class="pagehead pagehead--404" data-thanks>
+  <h1 class="pagehead__title">Thank you</h1>
+  <p class="pagehead__blurb">Your order is confirmed and a receipt is on its way to your email. Each tapestry is made by hand, so please allow 10–15 days for delivery. Questions about your order: <a href="mailto:${C.site.email}">${C.site.email}</a></p>
+</section>` }));
 }
 
 // Info

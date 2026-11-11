@@ -4,7 +4,12 @@
   "outputDirectory": "dist",
   "cleanUrls": true,
   "trailingSlash": true,
+  "functions": {
+    "api/checkout.js": { "includeFiles": "src/content.json" }
+  },
   "redirects": [
+    { "source": "/producto/:slug/", "destination": "/shop/:slug/", "permanent": true },
+    { "source": "/carrito/", "destination": "/cart/", "permanent": true },
     { "source": "/pr-cat/illustration/", "destination": "/illustration/", "permanent": true },
     { "source": "/pr-cat/surface-design/", "destination": "/surface-design/", "permanent": true },
     { "source": "/proyecto/ese-verano-oscuras/", "destination": "/work/ese-verano-a-oscuras/", "permanent": true },

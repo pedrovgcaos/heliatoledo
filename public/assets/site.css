@@ -1,9 +1,10 @@
-/* Helia Toledo — site styles. One family (Bricolage Grotesque), paper + indigo ink. */
+/* Helia Toledo — site styles. One family (Roboto, as on the original site), paper + indigo ink.
+   Titles follow the original: Roboto bold in capitals, here using the variable width axis. */
 
 @font-face {
-  font-family: "Bricolage";
-  src: url(/fonts/bricolage.woff2) format("woff2-variations");
-  font-weight: 200 800;
+  font-family: "Roboto";
+  src: url(/fonts/roboto.woff2) format("woff2-variations");
+  font-weight: 100 900;
   font-stretch: 75% 100%;
   font-display: swap;
 }
@@ -37,7 +38,7 @@ body {
   margin: 0;
   background: var(--paper);
   color: var(--ink);
-  font-family: "Bricolage", ui-sans-serif, system-ui, sans-serif;
+  font-family: "Roboto", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
   font-size: var(--t-body);
   line-height: 1.55;
   font-weight: 400;
@@ -116,7 +117,7 @@ main { display: block; }
   box-shadow: 0 1px 0 rgb(31 42 68 / .06), 0 26px 50px -24px rgb(31 42 68 / .55);
   view-transition-name: swatch;
 }
-.swatch__name { font-size: clamp(2rem, 3.4vw, 2.6rem); font-weight: 750; font-stretch: 75%; line-height: .95; letter-spacing: -.01em; margin: 0 0 .7rem; }
+.swatch__name { font-size: clamp(1.9rem, 3.2vw, 2.45rem); font-weight: 700; font-stretch: 80%; line-height: .95; letter-spacing: .005em; text-transform: uppercase; margin: 0 0 .7rem; }
 .swatch__meta { font-size: var(--t-small); color: var(--ink-soft); margin: 0; }
 .swatch__meta div { display: grid; grid-template-columns: 6.5em 1fr; gap: .75em; padding-block: .3em; border-top: 1px solid var(--rule); }
 .swatch__meta dd { color: var(--ink); }
@@ -145,7 +146,7 @@ main { display: block; }
   padding: clamp(3.5rem, 9vw, 8rem) var(--gutter) clamp(3rem, 7vw, 6rem);
   display: grid; grid-template-columns: repeat(12, 1fr); gap: 1.5rem var(--gutter); align-items: end;
 }
-.intro__text { grid-column: 1 / span 9; font-size: var(--t-h2); font-weight: 600; font-stretch: 86%; line-height: 1.06; letter-spacing: -.012em; max-width: 24ch; }
+.intro__text { grid-column: 1 / span 9; font-size: var(--t-h2); font-weight: 500; font-stretch: 92%; line-height: 1.08; letter-spacing: -.015em; max-width: 25ch; }
 .intro__aside { grid-column: 10 / span 3; color: var(--ink-soft); font-size: var(--t-small); max-width: 34ch; margin: 0; }
 .intro__aside a { display: block; width: fit-content; margin-top: .6em; color: var(--ink); font-weight: 600; font-size: var(--t-body); }
 @media (max-width: 900px) {
@@ -154,11 +155,11 @@ main { display: block; }
 
 /* ---------- sections & page heads ---------- */
 .section { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter) clamp(3rem, 7vw, 6rem); }
-.section__title { font-size: var(--t-h3); font-weight: 650; font-stretch: 85%; padding-top: 1rem; border-top: 1.5px solid var(--ink); margin-bottom: 1.75rem; }
+.section__title { font-size: 1.05rem; font-weight: 600; letter-spacing: .04em; text-transform: uppercase; padding-top: 1rem; border-top: 1.5px solid var(--ink); margin-bottom: 1.75rem; }
 .section__more { display: flex; flex-wrap: wrap; gap: .5rem 2rem; margin-top: 1.5rem; font-weight: 600; }
 
 .pagehead { max-width: var(--max); margin: 0 auto; padding: clamp(2.5rem, 7vw, 5.5rem) var(--gutter) clamp(2rem, 4vw, 3.25rem); }
-.pagehead__title { font-size: var(--t-h1); font-weight: 760; font-stretch: 75%; line-height: .88; letter-spacing: -.025em; margin-bottom: .35em; }
+.pagehead__title { font-size: var(--t-h1); font-weight: 700; font-stretch: 78%; line-height: .9; letter-spacing: -.01em; text-transform: uppercase; margin-bottom: .35em; }
 .pagehead__blurb { max-width: 48ch; color: var(--ink-soft); font-size: var(--t-lead); line-height: 1.4; margin: 0; }
 .pagehead__blurb a { color: var(--ink); }
 .pagehead--404 { min-height: 50svh; }
@@ -196,7 +197,7 @@ img[data-hero] { view-transition-name: hero; }
 .project__info { position: sticky; top: calc(var(--head-h) + 1.5rem); grid-row: 1; grid-column: 2; }
 .project__crumb { font-size: var(--t-small); margin-bottom: .75rem; }
 .project__crumb a { color: var(--ink-soft); }
-.project__title { font-size: clamp(2.6rem, 5.4vw, 5rem); font-weight: 760; font-stretch: 75%; line-height: .9; letter-spacing: -.02em; margin-bottom: 1.5rem; }
+.project__title { font-size: clamp(2.3rem, 4.6vw, 4.2rem); font-weight: 700; font-stretch: 80%; line-height: .92; letter-spacing: 0; text-transform: uppercase; overflow-wrap: anywhere; margin-bottom: 1.5rem; }
 .project__meta { margin-bottom: 1.75rem; font-size: .95rem; }
 .project__meta div { display: grid; grid-template-columns: 6.5em 1fr; gap: 1em; padding-block: .45em; border-top: 1px solid var(--rule); }
 .project__meta div:last-child { border-bottom: 1px solid var(--rule); }
@@ -217,7 +218,7 @@ img[data-hero] { view-transition-name: hero; }
 }
 .pager a {
   display: block; text-decoration: none; padding-top: 1rem; border-top: 1.5px solid var(--ink);
-  font-size: var(--t-h3); font-weight: 700; font-stretch: 78%; line-height: 1.05;
+  font-size: var(--t-h3); font-weight: 600; font-stretch: 88%; line-height: 1.1;
 }
 .pager a span { display: block; font-size: var(--t-small); font-weight: 400; font-stretch: 100%; color: var(--ink-soft); margin-bottom: .3rem; }
 .pager__next { text-align: right; }
@@ -231,11 +232,91 @@ img[data-hero] { view-transition-name: hero; }
 .shop__link img { grid-area: 1 / 1; width: 100%; aspect-ratio: 4 / 5; object-fit: cover; }
 .shop__alt { opacity: 0; transition: opacity .35s ease; }
 .shop__link:hover .shop__alt, .shop__link:focus-visible .shop__alt { opacity: 1; }
-.shop__name { font-weight: 650; font-size: 1.15rem; margin-top: .7rem; }
+.shop__name { font-weight: 600; font-size: 1.15rem; margin-top: .7rem; }
 .shop__price { font-size: .95rem; }
 .shop__sizes { font-size: var(--t-small); color: var(--ink-soft); }
 .shop__link:hover .shop__name { text-decoration: underline; text-decoration-thickness: 1.5px; text-underline-offset: .2em; }
 .shop__link:hover { color: inherit; }
+
+.shopgroup { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter); }
+.shopgroup .shop { padding-inline: 0; }
+.shopgroup__count { font-weight: 400; letter-spacing: 0; text-transform: none; color: var(--ink-soft); margin-left: .5em; }
+
+/* ---------- product: buy form ---------- */
+.buy { margin: 0 0 2rem; }
+.buy__price { font-size: 1.6rem; font-weight: 500; margin: 0 0 1.1rem; font-variant-numeric: tabular-nums; }
+.buy__sizes { border: 0; padding: 0; margin: 0 0 1.1rem; display: grid; gap: 6px; }
+.buy__sizes legend { font-size: var(--t-small); color: var(--ink-soft); padding: 0; margin-bottom: .5rem; }
+.buy__size {
+  display: grid; grid-template-columns: auto 1fr auto; align-items: center; gap: .75rem;
+  padding: .7rem .9rem; border: 1px solid var(--rule); cursor: pointer; background: #fff;
+}
+.buy__size:hover { border-color: var(--ink-soft); }
+.buy__size:has(input:checked) { border-color: var(--ink); box-shadow: inset 0 0 0 1px var(--ink); }
+.buy__size:has(input:focus-visible) { outline: 2px solid var(--cobalt); outline-offset: 2px; }
+.buy__size input { accent-color: var(--ink); width: 1.05rem; height: 1.05rem; margin: 0; }
+.buy__size-price { font-variant-numeric: tabular-nums; color: var(--ink-soft); }
+.buy__row { display: flex; gap: .75rem; align-items: end; }
+.buy__qty { display: grid; gap: .3rem; font-size: var(--t-small); color: var(--ink-soft); }
+.buy__qty input { width: 4.5rem; font: inherit; font-size: 1rem; color: var(--ink); padding: .75rem .6rem; border: 1px solid var(--rule); background: #fff; }
+.buy__add, .cart__checkout {
+  flex: 1; border: 0; cursor: pointer; background: var(--ink); color: var(--paper);
+  font-weight: 600; font-size: 1rem; padding: .95rem 1.25rem; min-height: 48px;
+}
+.buy__add:hover, .cart__checkout:hover { background: var(--cobalt); }
+.cart__checkout:disabled { opacity: .6; cursor: progress; }
+.buy__added { margin: .8rem 0 0; font-size: .95rem; }
+.buy__added a { font-weight: 600; }
+.product .project__text--es p { margin-bottom: .8em; }
+@media (max-width: 900px) {
+  /* phones: swipe through the photos first, then choose a size */
+  .product .project__images {
+    grid-row: 1; grid-auto-flow: column; grid-auto-columns: 86%;
+    overflow-x: auto; scroll-snap-type: x mandatory; overscroll-behavior-x: contain;
+    margin-inline: calc(var(--gutter) * -1); padding-inline: var(--gutter); scroll-padding-inline: var(--gutter);
+  }
+  .product .project__img { scroll-snap-align: start; }
+  .product .project__img img { aspect-ratio: 4 / 5; object-fit: cover; }
+  .product .project__info { grid-row: 2; }
+}
+
+.masthead__count { font-variant-numeric: tabular-nums; }
+
+/* ---------- cart ---------- */
+.cart { max-width: var(--max); margin: 0 auto; padding: 0 var(--gutter) clamp(3rem, 7vw, 6rem); }
+.cart > * { max-width: 960px; }
+.cart__empty { font-size: var(--t-lead); color: var(--ink-soft); }
+.cart__empty a { color: var(--ink); font-weight: 600; }
+.cart__lines { border-top: 1.5px solid var(--ink); }
+.cart__line {
+  display: grid; grid-template-columns: 96px 1fr auto auto; grid-template-areas: "thumb what qty sum" "thumb remove . .";
+  gap: .4rem 1.5rem; align-items: start; padding: 1.25rem 0; border-bottom: 1px solid var(--rule);
+}
+.cart__thumb { grid-area: thumb; }
+.cart__thumb img { width: 96px; height: 120px; object-fit: cover; background: var(--wash); }
+.cart__what { grid-area: what; display: grid; gap: .1rem; font-size: .95rem; color: var(--ink-soft); }
+.cart__name { font-size: 1.15rem; font-weight: 600; color: var(--ink); text-decoration: none; }
+.cart__name:hover { text-decoration: underline; }
+.cart__qty { grid-area: qty; justify-self: start; display: flex; align-items: center; border: 1px solid var(--rule); background: #fff; }
+.cart__qty button { width: 40px; height: 40px; border: 0; background: none; cursor: pointer; font-size: 1.1rem; }
+.cart__qty button:disabled { color: var(--rule); cursor: default; }
+.cart__qty output { min-width: 2ch; text-align: center; font-variant-numeric: tabular-nums; }
+.cart__sum { grid-area: sum; margin: 0; font-weight: 600; font-size: 1.1rem; min-width: 4.5ch; text-align: right; padding-top: .4rem; font-variant-numeric: tabular-nums; }
+.cart__remove { grid-area: remove; justify-self: start; border: 0; background: none; padding: 0; color: var(--ink-soft); text-decoration: underline; text-underline-offset: .2em; cursor: pointer; font-size: var(--t-small); }
+.cart__remove:hover { color: var(--cobalt); }
+.cart__foot { display: grid; justify-items: end; gap: .9rem; padding-top: 1.5rem; }
+.cart__total div { display: flex; gap: 2rem; align-items: baseline; font-size: 1.35rem; font-weight: 600; }
+.cart__total dt { font-weight: 400; color: var(--ink-soft); font-size: 1rem; }
+.cart__note { max-width: 40ch; text-align: right; color: var(--ink-soft); font-size: .95rem; margin: 0; }
+.cart__checkout { flex: none; min-width: min(320px, 100%); }
+.cart__error { color: #A3261B; margin: 0; text-align: right; }
+@media (max-width: 640px) {
+  .cart__line { grid-template-columns: 72px 1fr auto; grid-template-areas: "thumb what what" "thumb qty sum" "thumb remove remove"; gap: .6rem 1rem; }
+  .cart__thumb img { width: 72px; height: 90px; }
+  .cart__foot { justify-items: stretch; }
+  .cart__note, .cart__error { text-align: left; }
+  .cart__checkout { min-width: 0; }
+}
 
 /* ---------- info ---------- */
 .about {
@@ -270,7 +351,7 @@ img[data-hero] { view-transition-name: hero; }
 }
 .colophon__contact { display: grid; justify-items: start; gap: .35rem; }
 .colophon__contact p { margin: 0; color: var(--ink-soft); }
-.colophon__mail { font-size: var(--t-h2); font-weight: 700; font-stretch: 78%; line-height: 1; letter-spacing: -.015em; text-decoration: none; margin-bottom: .6rem; overflow-wrap: anywhere; }
+.colophon__mail { font-size: var(--t-h2); font-weight: 600; font-stretch: 85%; line-height: 1; letter-spacing: -.015em; text-decoration: none; margin-bottom: .6rem; overflow-wrap: anywhere; }
 .colophon__mail:hover { text-decoration: underline; text-decoration-thickness: 2px; }
 .colophon__legal { font-size: var(--t-small); color: var(--ink-soft); text-align: right; }
 .colophon__legal ul { display: flex; flex-wrap: wrap; justify-content: flex-end; gap: .25rem 1.25rem; margin-bottom: .5rem; }

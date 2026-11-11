@@ -32,10 +32,29 @@ Everything lives in `src/content.json`:
 | `repeats` | The patterns on the home page wall, in order (`name` matches `public/img/tile-<name>-*.webp`) |
 | `home`, `illustration`, `surface` | The grids, in display order. `project` links an item to its page; `null` opens it in the image viewer |
 | `projects` | Project pages: year, type, medium, English and Spanish text, images |
-| `shop` | Tapestries, sizes and the link to buy each one |
+| `shop` | Tapestries: collection, reference, sizes and prices, images |
+| `shopInfo` | Material and the English/Spanish description shared by all tapestries |
 | `legal` | Aviso legal, privacy and cookie policy (HTML) |
 
 After editing, run `npm run dev` again to regenerate the pages.
+
+## Shop and payments
+
+Each tapestry in `shop` has its own page at `/shop/<slug>/`, with sizes and prices. The cart is kept in the visitor's browser.
+
+Checkout works in one of two ways:
+
+- **Card payments (Stripe):** set `STRIPE_SECRET_KEY` in Vercel → Settings → Environment Variables and redeploy. "Go to payment" then opens Stripe Checkout. Prices are always read from `src/content.json` on the server (`api/checkout.js`), so they can't be changed from the browser. After paying, customers return to `/shop/thanks/` and Stripe emails them a receipt. Orders appear in the Stripe dashboard.
+- **Without a Stripe key:** the button reads "Send order by email" and opens an email to Helia listing the tapestries, sizes and subtotal.
+
+Optional settings for Stripe:
+
+| Variable | Use |
+| --- | --- |
+| `SHIP_COUNTRIES` | Countries you deliver to, comma-separated ISO codes. Default: EU countries, GB, CH, NO and US |
+| `STRIPE_SHIPPING_RATE` | Shipping rate IDs (`shr_…`) created in the Stripe dashboard, comma-separated. Without it, no shipping is charged |
+
+To change a price, edit the `sizes` of the product in `src/content.json`.
 
 ## Add new images
 
@@ -55,6 +74,7 @@ public/              files copied as-is: images, font, CSS, JS, favicon
 scripts/build.mjs    generates dist/
 scripts/serve.mjs    local preview server
 scripts/images.mjs   converts originals/ to WebP
+api/checkout.js      Vercel function that opens Stripe Checkout
 ```
 
-The typeface is Bricolage Grotesque, licensed under the SIL Open Font License (`public/fonts/OFL.txt`).
+The typeface is Roboto (variable, weights 100–900 and widths 75–100%), the same family as the original site, licensed under the SIL Open Font License (`public/fonts/OFL.txt`).

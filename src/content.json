@@ -1037,375 +1037,551 @@
   {
    "slug": "cortile-tapestry",
    "title": "Cortile",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_01",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-01-cortile-01-1",
     "c25-t-01-cortile-02",
     "c25-t-01-cortile-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/cortile-tapestry/"
+   ]
   },
   {
    "slug": "flos-i-tapestry",
    "title": "Flos I",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_02",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-02-flos-i-01",
     "c25-t-02-flos-i-02",
     "c25-t-02-flos-i-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/flos-i-tapestry/"
+   ]
   },
   {
    "slug": "calendula-tapestry",
    "title": "Calendula",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_03",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-03-calendula-01",
     "c25-t-03-calendula-02",
     "c25-t-03-calendula-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/calendula-tapestry/"
+   ]
   },
   {
    "slug": "lilium-tapestry",
    "title": "Lilium",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_04",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-04-lilium-01",
     "c25-t-04-lilium-02",
     "c25-t-04-lilium-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/lilium-tapestry/"
+   ]
   },
   {
    "slug": "grenade-tapestry",
    "title": "Grenade",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_05",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-05-grenade-01",
     "c25-t-05-grenade-02",
     "c25-t-05-grenade-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/grenade-tapestry/"
+   ]
   },
   {
    "slug": "flos-ii-tapestry",
    "title": "Flos II",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_06",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-06-flos-ii-01",
     "c25-t-06-flos-ii-02",
     "c25-t-06-flos-ii-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/flos-ii-tapestry/"
+   ]
   },
   {
    "slug": "alvorada-tapestry",
    "title": "Alvorada",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_07",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-07-alvorada-01",
     "c25-t-07-alvorada-02",
     "c25-t-07-alvorada-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/alvorada-tapestry/"
+   ]
   },
   {
    "slug": "lilac-tapestry",
    "title": "Lilac",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_08",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-08-lilac-01",
     "c25-t-08-lilac-02",
     "c25-t-08-lilac-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/lilac-tapestry/"
+   ]
   },
   {
    "slug": "septiembre-tapestry",
    "title": "Septiembre",
-   "collection": "2025",
-   "from": 50,
+   "collection": 2025,
+   "sku": "C25_09",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c25-t-09-septiembre-01",
     "c25-t-09-septiembre-02",
     "c25-t-09-septiembre-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/septiembre-tapestry/"
+   ]
   },
   {
    "slug": "pulp-tapestry",
    "title": "Pulp",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_01",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-01-pulp-01",
     "c21-t-01-pulp-02",
     "c21-t-01-pulp-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/pulp-tapestry/"
+   ]
   },
   {
    "slug": "backyard-tapestry",
    "title": "Backyard",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_02",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-02-backyard-01",
     "c21-t-02-backyard-03",
     "c21-t-02-backyard-02"
-   ],
-   "url": "https://www.heliatoledo.com/producto/backyard-tapestry/"
+   ]
   },
   {
    "slug": "lagoon-tapestry",
    "title": "Lagoon",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_03",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-03-lagoon-01",
     "c21-t-03-lagoon-02",
     "c21-t-03-lagoon-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/lagoon-tapestry/"
+   ]
   },
   {
    "slug": "fall-i-tapestry",
    "title": "Fall I",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_07",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-07-fall-i-01",
     "c21-t-07-fall-i-02",
     "c21-t-07-fall-i-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/fall-i-tapestry/"
+   ]
   },
   {
    "slug": "almond-tree-tapestry",
-   "title": "Almond-Tree",
-   "collection": "2021",
-   "from": 50,
+   "title": "Almond Tree",
+   "collection": 2021,
+   "sku": "C21_04",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-04-almond-tree-01",
     "c21-t-04-almond-tree-02",
     "c21-t-04-almond-tree-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/almond-tree-tapestry/"
+   ]
   },
   {
    "slug": "chrysantemus-tapestry",
-   "title": "Chrysantemus",
-   "collection": "2021",
-   "from": 50,
+   "title": "Chrysanthemums",
+   "collection": 2021,
+   "sku": "C21_05",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-05-chrysantemus-01",
     "c21-t-05-chrysantemus-02",
     "c21-t-05-chrysantemus-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/chrysantemus-tapestry/"
+   ]
   },
   {
    "slug": "ultramodern-tapestry",
    "title": "Ultramodern",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_06",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-06-ultramodern-01",
     "c21-t-06-ultramodern-02",
     "c21-t-06-ultramodern-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/ultramodern-tapestry/"
+   ]
   },
   {
    "slug": "clementine-tapestry",
    "title": "Clementine",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_08",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-08-clementine-01",
     "c21-t-08-clementine-02",
     "c21-t-08-clementine-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/clementine-tapestry/"
+   ]
   },
   {
    "slug": "ancient-tapestry",
    "title": "Ancient",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_09",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-09-antient-01",
     "c21-t-09-antient-02",
     "c21-t-09-antient-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/ancient-tapestry/"
+   ]
   },
   {
    "slug": "fall-ii-tapestry",
    "title": "Fall II",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_10",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-10-fall-ii-01",
     "c21-t-10-fall-ii-02",
     "c21-t-10-fall-ii-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/fall-ii-tapestry/"
+   ]
   },
   {
    "slug": "orange-tree-tapestry",
    "title": "Orange tree",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_12",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-12-orange-tree-01",
     "c21-t-12-orange-tree-02",
     "c21-t-12-orange-tree-3"
-   ],
-   "url": "https://www.heliatoledo.com/producto/orange-tree-tapestry/"
+   ]
   },
   {
    "slug": "calere-tapestry",
    "title": "Calere",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_11",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-11-calere-01",
     "c21-t-11-calere-02",
     "c21-t-11-calere-03"
-   ],
-   "url": "https://www.heliatoledo.com/producto/calere-tapestry/"
+   ]
   },
   {
    "slug": "vineflowers",
    "title": "Vine & Flowers",
-   "collection": "2021",
-   "from": 50,
+   "collection": 2021,
+   "sku": "C21_13",
    "sizes": [
-    "50 x 70 cm",
-    "70 x 100 cm",
-    "100 x 150 cm"
+    {
+     "label": "50 x 70 cm",
+     "price": 50
+    },
+    {
+     "label": "70 x 100 cm",
+     "price": 80
+    },
+    {
+     "label": "100 x 150 cm",
+     "price": 120
+    }
    ],
    "images": [
     "c21-t-13-vineflowers-01",
     "c21-t-13-vineflowers-02"
-   ],
-   "url": "https://www.heliatoledo.com/producto/vineflowers/"
+   ]
   }
  ],
  "legal": [
@@ -1424,5 +1600,17 @@
    "title": "Cookies",
    "html": "<p>En cumplimiento de la Ley 34/2002 de Servicios de la Sociedad de la Información y Comercio Electrónico le informamos de la utilización de cookies en las webs y aplicaciones de <strong>EMPRESA</strong> con el fin de facilitar y mejorar la navegación a los Usuarios, recordando por donde navegamos en el sitio web, las preferencias y las configuraciones de visualización.</p> <p>El Sitio web está adecuado a las Directrices Europeas sobre consentimiento 5/2020, modificadas en mayo de 2020 por el Comité Europeo de Protección de Datos (CEPD) sobre el consentimiento en el sentido del Reglamento (UE) 2016/679, por lo que será necesario que nos otorgue su consentimiento expreso al acceder a la web. Las cookies que requieren consentimiento informado por parte del usuario serán las analíticas, así como las de publicidad y afiliación, quedando excluidas las cookies de carácter técnico y las necesarias para el funcionamiento del sitio web o la prestación de los servicios expresamente solicitados por el usuario.</p> <p>Recuerde que antes de empezar a utilizar cualquiera de nuestros servicios o funcionalidades, deberá leer esta Política de Cookies, la Política de Privacidad, así como el Aviso Legal de nuestro sitio web. En dichas secciones podrá ver si se requiere un tratamiento específico de sus datos personales y cómo se realiza.</p> <h2>1. ¿Qué es una cookie?</h2> <p>Una cookie es un pequeño archivo que se descarga y almacena en su ordenador al acceder a determinadas páginas web. Las cookies permiten a una página web, entre otras cosas, almacenar y recuperar información sobre la navegación de los Usuarios o de sus equipos, esta información se asocia al navegador permitiendo identificar a quien accede de manera anónima, por lo que son esenciales para el funcionamiento de Internet, aportando ventajas para la prestación de servicios interactivos, facilitando la navegación al guardar sus preferencias y la usabilidad de nuestra web. Tenga en cuenta que las cookies no pueden dañar su equipo y que a cambio el que estén activadas nos ayudan a identificar y resolver los errores.</p> <p>Los Usuarios que no deseen la instalación de cookies o quieran ser informados antes de que se almacenen en su ordenador, pueden configurar su navegador a tal efecto.</p> <h2>2. Tipos de cookies</h2> <p>Según quien sea la entidad que gestione el dominio desde donde se envían las cookies y trate los datos que se obtengan se pueden distinguir dos tipos;</p> <ul> <li>Cookies propias: Son aquellas que se envían a tu equipo desde los equipos propios o dominios y desde el que prestamos el servicio que nos solicitas.</li> <li>Cookies de terceros: Son aquellas que se envían a tu equipo desde un equipo o dominio que no es gestionado por nosotros, sino por otra entidad colaboradora. Como, por ejemplo, las usadas por redes sociales, o por contenido externo como Google Maps.</li> </ul> <p>Existe también una segunda clasificación según el plazo de tiempo que permanecen almacenadas en el navegador del Usuario, pudiendo tratarse de;</p> <ul> <li>Cookies de sesión: Son cookies temporales que permanecen en el archivo de cookies de tu navegador hasta que abandonas la página web, por lo que ninguna queda registrada en el disco duro de tu ordenador. La información obtenida por medio de estas cookies, sirven para analizar pautas de tráfico en la web. A la larga, esto nos permite proporcionar una mejor experiencia para mejorar el contenido y facilitar su uso.</li> <li>Cookies persistentes: Son almacenadas en el disco duro y nuestra web las lee cada vez que realizas una nueva visita. Una web permanente posee una fecha de expiración determinada. La cookie dejará de funcionar después de esa fecha. Estas cookies las utilizamos, generalmente, para facilitar los servicios de compra y registro.</li> </ul> <p>Por último, existe otra clasificación con cinco tipos de cookies según la finalidad para la que se traten los datos obtenidos;</p> <ul> <li>Cookies técnicas: Son aquellas necesarias para la navegación y el buen funcionamiento de nuestra página web. Permite, por ejemplo, controlar el tráfico y la comunicación de datos, acceder a partes de acceso restringido, realizar el proceso de compra de un pedido, utilizar elementos de seguridad, almacenar contenidos para poder difundir vídeos o compartir contenidos a través de redes sociales.</li> <li>Cookies de personalización: Son aquéllas que te permiten acceder al servicio con unas características predefinidas en función de una serie de criterios, como por ejemplo el idioma, el tipo de navegador a través del cual se accede al servicio, la configuración regional desde donde se accede al servicio, etc.</li> <li>Cookies analíticas: Son aquéllas que nos permiten cuantificar el número de las personas usuarias y así realizar la medición y análisis estadístico de la utilización que hacen las personas usuarias de los servicios prestados. Para ello se analiza su navegación en nuestra página web con el fin de mejorar la oferta de productos y servicios que ofrecemos.</li> <li>Cookies publicitarias: Son aquéllas que permiten la gestión, de la forma más eficaz posible, de los espacios publicitarios que se pudieran incluir en nuestra página web.</li> <li>Cookies de publicidad comportamental: Estas cookies almacenan información del comportamiento de las personas usuarias obtenida a través de la observación continuada. Gracias a ellas, podemos conocer los hábitos de navegación en internet y mostrarte publicidad relacionada con tu perfil de navegación.</li> </ul> <h2>3. Cookies utilizadas en la web</h2> <p>A continuación, se identifican las cookies utilizadas en este Sitio Web;</p> <ul> <li>_ga. Google / Analítica / Persistente, 2 años</li> </ul> <h2>4. Gestión de Cookies</h2> <p>Usted puede restringir, bloquear o borrar las cookies de esta web en la configuración de su navegador. En cada navegador la operativa es diferente, la función de “Ayuda” le mostrará cómo hacerlo. A continuación, le dejamos unos enlaces con la configuración de los navegadores más utilizados hoy en día. Puede copiar los enlaces y pegarlos directamente en su navegador:</p> <ul> <li>Internet explorer: www.windows.microsoft.com/es-xl/internet-explorer/delete-manage-cookies#ie=”ie-10″</li> <li>Mozilla Firefox: support.mozilla.org/es/kb/Borrar%20cookies</li> <li>Google Chrome: support.google.com/chrome/answer/95647?hl=”es”</li> <li>Chrome para android: https://support.google.com/chrome/answer/114662?hl=es&amp;visit_id=0-636328723400421084-2300173826&amp;rd=1</li> <li>Safari: www.apple.com/es/privacy/use-of-cookies/</li> <li>Safari para IOS: https://support.apple.com/es-es/HT201265</li> <li>Opera: http://help.opera.com/Windows/11.50/es-ES/cookies.html</li> </ul> <h2>5. Consentimiento</h2> <p>En Esta Web nunca guardamos los datos personales de nuestros usuarios, a excepción de la dirección IP de acuerdo con lo descrito anteriormente, salvo que quieras registrarte, de forma voluntaria con el fin de realizar peticiones sobre nuestros productos y servicios que ponemos a tu disposición o de recibir información sobre promociones y contenidos de tu interés.</p> <p>Al navegar y continuar en nuestra web nos indicas que estás consintiendo el uso de las cookies antes enunciadas, y en las condiciones contenidas en la presente Política de Cookies.</p> <p><em>Última actualización, 14 de diciembre de 2022</em></p>"
   }
- ]
+ ],
+ "shopInfo": {
+  "material": "Canvas print on 100% cotton, 315 g/m²",
+  "en": [
+   "Individually handmade and hand-signed. Each piece is crafted with care, making every print unique.",
+   "Delivery time may vary depending on availability; please allow 10–15 days for shipping."
+  ],
+  "es": [
+   "Reproducción sobre lona de 100% algodón, 315 g/m². Hecha a mano y firmada individualmente; cada pieza se elabora con especial cuidado, lo que hace que cada reproducción sea única.",
+   "El tiempo de entrega puede variar según la disponibilidad; calcula entre 10 y 15 días para recibir tu pedido."
+  ],
+  "currency": "EUR"
+ }
 }

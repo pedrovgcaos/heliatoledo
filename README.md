@@ -38,23 +38,34 @@ Everything lives in `src/content.json`:
 
 After editing, run `npm run dev` again to regenerate the pages.
 
-## Shop and payments
+## Shop and orders
 
-Each tapestry in `shop` has its own page at `/shop/<slug>/`, with sizes and prices. The cart is kept in the visitor's browser.
+Each tapestry in `shop` has its own page at `/shop/<slug>/`. The cart is kept in the visitor's browser. At checkout the customer enters their name and shipping address; the order is saved with a number (e.g. `HT-261111-K3F9`) and they get an order page at `/shop/order/` to follow it. **No payment is taken on the site**: Helia sends the payment details (bank transfer, Bizum…) and records the payment in the panel.
 
-Checkout works in one of two ways:
+Prices, sold-out sizes and shipping costs come from the panel at request time (`/api/catalog`), and the server always recalculates the order from them, so the browser can't change a price.
 
-- **Card payments (Stripe):** set `STRIPE_SECRET_KEY` in Vercel → Settings → Environment Variables and redeploy. "Go to payment" then opens Stripe Checkout. Prices are always read from `src/content.json` on the server (`api/checkout.js`), so they can't be changed from the browser. After paying, customers return to `/shop/thanks/` and Stripe emails them a receipt. Orders appear in the Stripe dashboard.
-- **Without a Stripe key:** the button reads "Send order by email" and opens an email to Helia listing the tapestries, sizes and subtotal.
+## Panel (/admin)
 
-Optional settings for Stripe:
+The panel is at `/admin`, entirely in Spanish, following the House Media panel layout:
+
+- **Resumen**: revenue, orders, tapestries sold, average order, orders to charge and to ship, daily chart, best sellers, sizes, countries, recent orders and anything waiting too long.
+- **Pedidos**: every order, filtered by status and searchable. Each order has: mark as paid (method and reference), mark as shipped (carrier, tracking number, link), delivered, cancel or reopen; shipping cost per order; internal note; history; ready-made emails to the customer in their language; the customer's order link; printable packing slip. CSV export of all orders.
+- **Productos**: price per size, sold out per size or for the whole tapestry, hide from the site. Applied on the site within seconds.
+- **Envíos y pagos**: shipping cost per zone (Spain, EU, rest of Europe, rest of world; empty = to be confirmed), free shipping threshold, payment instructions (English and Spanish), notification email, open/close the shop.
+
+Orders and settings are stored in a **private** Vercel Blob store (`heliatoledo-pedidos`), never publicly reachable. Locally, without `BLOB_READ_WRITE_TOKEN`, they go to `.data/` (git-ignored).
+
+### Environment variables (Vercel → Settings → Environment Variables)
 
 | Variable | Use |
 | --- | --- |
-| `SHIP_COUNTRIES` | Countries you deliver to, comma-separated ISO codes. Default: EU countries, GB, CH, NO and US |
-| `STRIPE_SHIPPING_RATE` | Shipping rate IDs (`shr_…`) created in the Stripe dashboard, comma-separated. Without it, no shipping is charged |
+| `ADMIN_PASSWORD` | Panel password. Change it and redeploy to update. |
+| `ADMIN_SECRET` | Signs the panel session. Changing it signs everyone out. |
+| `BLOB_READ_WRITE_TOKEN` | Created automatically when the Blob store was connected. |
+| `RESEND_API_KEY`, `EMAIL_FROM` | Optional: automatic emails (order confirmation to the customer, new-order alert to Helia, shipping notice). E.g. `Helia Toledo <shop@housemedia.app>` with the domain verified in Resend. Without them, the panel offers ready-written emails to send from Helia's own mail. |
+| `SITE_URL` | Public address used in links and emails. |
 
-To change a price, edit the `sizes` of the product in `src/content.json`.
+To try the panel locally, create `.env.local` with `ADMIN_PASSWORD=…` and `ADMIN_SECRET=…`, run `npm run dev` and open http://localhost:4321/admin.
 
 ## Add new images
 
@@ -74,7 +85,8 @@ public/              files copied as-is: images, font, CSS, JS, favicon
 scripts/build.mjs    generates dist/
 scripts/serve.mjs    local preview server
 scripts/images.mjs   converts originals/ to WebP
-api/checkout.js      Vercel function that opens Stripe Checkout
+api/                 Vercel functions: catalog, orders, admin, login, session
+public/admin/        the panel (HTML, CSS, JS)
 ```
 
 The typeface is Roboto (variable, weights 100–900 and widths 75–100%), the same family as the original site, licensed under the SIL Open Font License (`public/fonts/OFL.txt`).

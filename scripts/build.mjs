@@ -297,10 +297,14 @@ C.shop.forEach((s, i) => {
 <script type="application/json" id="catalogue">${JSON.stringify(catalogue).replace(/</g, '\\u003c')}</script>`;
   emit('/cart/', page({ url: '/cart/', title: 'Cart', description: 'Your cart', body, current: '/cart/' }));
 
-  emit('/shop/thanks/', page({ url: '/shop/thanks/', title: 'Order confirmed', description: 'Thank you for your order', body: `
-<section class="pagehead pagehead--404" data-thanks>
-  <h1 class="pagehead__title">Thank you</h1>
-  <p class="pagehead__blurb">Your order is confirmed and a receipt is on its way to your email. Each tapestry is made by hand, so please allow 10–15 days for delivery. Questions about your order: <a href="mailto:${C.site.email}">${C.site.email}</a></p>
+  // order page: confirmation right after ordering, and the link customers keep to follow their order
+  emit('/shop/order/', page({ url: '/shop/order/', title: 'Your order', description: 'Your order with Helia Toledo', body: `
+<header class="pagehead">
+  <h1 class="pagehead__title" data-order-title>Your order</h1>
+</header>
+<section class="order" data-order data-email="${C.site.email}">
+  <p class="order__loading">Loading your order…</p>
+  <noscript><p>This page needs JavaScript. For anything about your order, write to <a href="mailto:${C.site.email}">${C.site.email}</a>.</p></noscript>
 </section>` }));
 }
 

@@ -11,5 +11,11 @@
   },
   "devDependencies": {
     "sharp": "0.33.5"
+  },
+  "dependencies": {
+    "@vercel/blob": "2.8.2"
+  },
+  "engines": {
+    "node": "22.x"
   }
 }

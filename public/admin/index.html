@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>Panel · Helia Toledo</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="preload" href="/fonts/roboto.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="/admin/admin.css">
+  <script type="module" src="/admin/admin.js"></script>
+</head>
+<body>
+  <!-- Entrada -->
+  <main class="login" data-login hidden>
+    <form class="login__box" data-login-form>
+      <img class="login__logo" src="/img/logo-helia.svg" alt="Helia Toledo" width="180" height="57">
+      <h1>Panel de la tienda</h1>
+      <p class="login__msg" data-login-msg>Entra con la contraseña del panel para gestionar pedidos y productos.</p>
+      <label class="field">
+        <span>Contraseña</span>
+        <input type="password" name="password" autocomplete="current-password" required>
+      </label>
+      <button class="btn btn--primary" type="submit">Entrar</button>
+      <p class="login__error" data-login-error role="alert"></p>
+    </form>
+  </main>
+
+  <!-- Panel -->
+  <div class="app" data-app hidden>
+    <header class="bar">
+      <a class="bar__brand" href="#resumen" aria-label="Panel, inicio">
+        <img src="/img/logo-helia.svg" alt="" width="110" height="35">
+        <span>Panel</span>
+      </a>
+      <p class="bar__status" data-status aria-live="polite"></p>
+      <div class="bar__actions">
+        <a class="btn btn--ghost" href="/shop/" target="_blank" rel="noopener"><span class="only-wide">Ver la tienda</span><span class="only-narrow">Web</span></a>
+        <button class="btn btn--ghost" type="button" data-act="logout">Salir</button>
+      </div>
+    </header>
+
+    <nav class="side" aria-label="Secciones del panel">
+      <ul data-nav></ul>
+    </nav>
+
+    <main class="main" data-main tabindex="-1"></main>
+  </div>
+
+  <div class="toast" data-toast role="status" aria-live="polite" hidden></div>
+</body>
+</html>

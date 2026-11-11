@@ -5,25 +5,134 @@
   "cleanUrls": true,
   "trailingSlash": true,
   "functions": {
-    "api/checkout.js": { "includeFiles": "src/content.json" }
+    "api/*.js": {
+      "includeFiles": "src/content.json"
+    }
   },
   "redirects": [
-    { "source": "/producto/:slug/", "destination": "/shop/:slug/", "permanent": true },
-    { "source": "/carrito/", "destination": "/cart/", "permanent": true },
-    { "source": "/pr-cat/illustration/", "destination": "/illustration/", "permanent": true },
-    { "source": "/pr-cat/surface-design/", "destination": "/surface-design/", "permanent": true },
-    { "source": "/proyecto/ese-verano-oscuras/", "destination": "/work/ese-verano-a-oscuras/", "permanent": true },
-    { "source": "/proyecto/:slug/", "destination": "/work/:slug/", "permanent": true },
-    { "source": "/tienda/", "destination": "/shop/", "permanent": true },
-    { "source": "/categoria-producto/:cat/", "destination": "/shop/", "permanent": true },
-    { "source": "/aviso-legal/", "destination": "/legal/aviso-legal/", "permanent": true },
-    { "source": "/privacy-policy/", "destination": "/legal/privacy-policy/", "permanent": true },
-    { "source": "/cookies/", "destination": "/legal/cookies/", "permanent": true }
+    {
+      "source": "/producto/:slug/",
+      "destination": "/shop/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/carrito/",
+      "destination": "/cart/",
+      "permanent": true
+    },
+    {
+      "source": "/pr-cat/illustration/",
+      "destination": "/illustration/",
+      "permanent": true
+    },
+    {
+      "source": "/pr-cat/surface-design/",
+      "destination": "/surface-design/",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/ese-verano-oscuras/",
+      "destination": "/work/ese-verano-a-oscuras/",
+      "permanent": true
+    },
+    {
+      "source": "/proyecto/:slug/",
+      "destination": "/work/:slug/",
+      "permanent": true
+    },
+    {
+      "source": "/tienda/",
+      "destination": "/shop/",
+      "permanent": true
+    },
+    {
+      "source": "/categoria-producto/:cat/",
+      "destination": "/shop/",
+      "permanent": true
+    },
+    {
+      "source": "/aviso-legal/",
+      "destination": "/legal/aviso-legal/",
+      "permanent": true
+    },
+    {
+      "source": "/privacy-policy/",
+      "destination": "/legal/privacy-policy/",
+      "permanent": true
+    },
+    {
+      "source": "/cookies/",
+      "destination": "/legal/cookies/",
+      "permanent": true
+    }
   ],
   "headers": [
-    { "source": "/img/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/og/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=86400" }] },
-    { "source": "/fonts/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] },
-    { "source": "/assets/(.*)", "headers": [{ "key": "Cache-Control", "value": "public, max-age=31536000, immutable" }] }
+    {
+      "source": "/admin/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        },
+        {
+          "key": "Cache-Control",
+          "value": "no-store"
+        }
+      ]
+    },
+    {
+      "source": "/admin",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    },
+    {
+      "source": "/shop/order/(.*)",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex"
+        }
+      ]
+    },
+    {
+      "source": "/img/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/og/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=86400"
+        }
+      ]
+    },
+    {
+      "source": "/fonts/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    },
+    {
+      "source": "/assets/(.*)",
+      "headers": [
+        {
+          "key": "Cache-Control",
+          "value": "public, max-age=31536000, immutable"
+        }
+      ]
+    }
   ]
 }

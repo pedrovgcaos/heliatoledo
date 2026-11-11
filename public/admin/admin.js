@@ -4,6 +4,7 @@ const SECTIONS = [
   ['pedidos', 'Pedidos', 'Ventas'],
   ['productos', 'Productos', 'Tienda'],
   ['ajustes', 'Envíos y pagos', 'Tienda'],
+  ['pendientes', 'Pendientes', 'Web'],
 ];
 const STATUS = { nuevo: 'Pendiente de pago', pagado: 'Pagado', enviado: 'Enviado', entregado: 'Entregado', cancelado: 'Cancelado' };
 const STATUS_ORDER = ['nuevo', 'pagado', 'enviado', 'entregado', 'cancelado'];
@@ -75,6 +76,16 @@ function updateChrome() {
   el.classList.toggle('is-alert', parts.length > 0);
   const badge = $('[data-badge="pedidos"]');
   if (badge) { badge.textContent = toCharge + toShip; badge.hidden = !(toCharge + toShip); }
+  const left = (state.checklist || []).filter(i => !i.done).length;
+  const tb = $('[data-badge="pendientes"]');
+  if (tb) { tb.textContent = left; tb.hidden = !left; }
+}
+
+async function loadChecklist() {
+  const j = await api('/api/admin/?view=checklist');
+  state.checklist = j.items;
+  updateChrome();
+  return state.checklist;
 }
 
 // ---------- navegación ----------
@@ -90,7 +101,7 @@ function renderNav() {
   const current = section === 'pedido' ? 'pedidos' : section;
   const groups = [...new Set(SECTIONS.map(s => s[2]))];
   $('[data-nav]').innerHTML = groups.map(g => `<li><p class="side__title">${g}</p><ul>${SECTIONS.filter(s => s[2] === g).map(([id, label]) =>
-    `<li><a href="#${id}"${id === current ? ' aria-current="page"' : ''}><span>${label}</span>${id === 'pedidos' ? '<span class="badge" data-badge="pedidos" hidden></span>' : ''}</a></li>`).join('')}</ul></li>`).join('');
+    `<li><a href="#${id}"${id === current ? ' aria-current="page"' : ''}><span>${label}</span>${id === 'pedidos' || id === 'pendientes' ? `<span class="badge${id === 'pendientes' ? ' badge--soft' : ''}" data-badge="${id}" hidden></span>` : ''}</a></li>`).join('')}</ul></li>`).join('');
   updateChrome();
 }
 
@@ -104,6 +115,7 @@ async function render() {
     else if (section === 'pedido' && id) await viewOrder(id);
     else if (section === 'productos') await viewProducts();
     else if (section === 'ajustes') await viewSettings();
+    else if (section === 'pendientes') await viewChecklist();
     else await viewDashboard();
   } catch (err) {
     if (state.session?.admin) m.innerHTML = `<div class="card empty"><strong>No se pudo cargar esta sección</strong>${esc(err.message)}<p style="margin-top:1rem"><button class="btn" type="button" onclick="location.reload()">Reintentar</button></p></div>`;
@@ -118,11 +130,53 @@ const head = (title, text = '', actions = '') => `<header class="sec-head"><div>
 // ---------- Resumen ----------
 const PERIODS = [[7, '7 días'], [30, '30 días'], [90, '90 días'], [365, '12 meses'], [0, 'Todo']];
 
+const checklistBanner = () => {
+  const items = state.checklist || [];
+  const left = items.filter(i => !i.done);
+  if (!left.length) return '';
+  return `<a class="card banner" href="#pendientes"><span><strong>Faltan ${left.length} tarea${left.length === 1 ? '' : 's'} para terminar la web</strong><span class="muted">Siguiente: ${esc(left[0].title)}</span></span><span class="progress" aria-hidden="true"><i style="width:${((items.length - left.length) / items.length) * 100}%"></i></span></a>`;
+};
+
+async function viewChecklist() {
+  const items = await loadChecklist();
+  const m = main();
+  const done = items.filter(i => i.done).length;
+  const groups = [...new Set(items.map(i => i.group))];
+  const linkLabel = l => (l === '#ajustes' ? 'Ir a Envíos y pagos' : l === '#pedidos' ? 'Ir a Pedidos' : 'Abrir en la web');
+  m.innerHTML = `${head('Pendientes', 'Lo que falta para dejar la web terminada. Las tareas automáticas se marcan solas cuando están listas; las demás, márcalas tú.')}
+    <section class="card tasks-progress">
+      <div><strong>${done} de ${items.length} hechas</strong><span class="muted">${items.length - done ? `Quedan ${items.length - done}.` : 'Todo listo.'}</span></div>
+      <span class="progress" role="progressbar" aria-valuemin="0" aria-valuemax="${items.length}" aria-valuenow="${done}" aria-label="Progreso"><i style="width:${(done / items.length) * 100}%"></i></span>
+    </section>
+    ${groups.map(g => `<section class="card"><h2>${g}</h2><ul class="tasks">${items.filter(i => i.group === g).map(i => `
+      <li class="task${i.done ? ' is-done' : ''}">
+        ${i.auto
+          ? `<span class="task__auto${i.done ? ' ok' : ''}" title="Se marca sola">${i.done ? 'Hecho' : 'Pendiente'}</span>`
+          : `<label class="task__check"><input type="checkbox" data-task="${i.id}"${i.done ? ' checked' : ''}><span class="sr-only">Marcar «${esc(i.title)}» como hecha</span></label>`}
+        <div class="task__body">
+          <p class="task__title">${esc(i.title)}</p>
+          <p class="task__detail">${esc(i.detail)}</p>
+          ${i.note ? `<p class="task__note">${esc(i.note)}</p>` : ''}
+          <p class="task__meta">${i.auto ? 'Se marca sola' : i.doneAt ? `Hecha el ${fecha(i.doneAt)}` : 'Márcala cuando esté hecha'}${i.link ? `. <a href="${esc(i.link)}"${i.link.startsWith('#') ? '' : ' target="_blank" rel="noopener"'}>${linkLabel(i.link)}</a>` : ''}</p>
+        </div>
+      </li>`).join('')}</ul></section>`).join('')}`;
+  $$('[data-task]', m).forEach(cb => cb.addEventListener('change', async () => {
+    cb.disabled = true;
+    try {
+      const j = await post({ action: 'checklist', item: cb.dataset.task, done: cb.checked });
+      state.checklist = j.items;
+      toast(cb.checked ? 'Tarea marcada como hecha.' : 'Tarea marcada como pendiente.');
+      viewChecklist();
+    } catch (err) { toast(err.message, true); cb.checked = !cb.checked; cb.disabled = false; }
+  }));
+}
+
 async function viewDashboard() {
   const rows = await loadIndex(true);
+  loadChecklist().then(() => { const b = $('[data-banner]'); if (b) b.innerHTML = checklistBanner(); }).catch(() => {});
   const m = main();
   if (!rows.length) {
-    m.innerHTML = `${head('Resumen', 'Ventas de la tienda online.')}
+    m.innerHTML = `${head('Resumen', 'Ventas de la tienda online.')}<div data-banner>${checklistBanner()}</div>
       <div class="card empty"><strong>Aún no hay pedidos</strong>Cuando alguien compre en la web, el pedido aparecerá aquí y en Pedidos.<p style="margin-top:1rem"><a class="btn" href="#ajustes">Revisar envíos y pagos</a></p></div>`;
     return;
   }
@@ -151,7 +205,7 @@ async function viewDashboard() {
     ...toShip.filter(r => r.paidAt && diasDesde(r.paidAt) >= 5).map(r => ({ r, txt: `Pagado hace ${diasDesde(r.paidAt)} días, sin enviar` })),
   ];
 
-  m.innerHTML = `${head('Resumen', 'Ventas de la tienda online. Los ingresos cuentan los pedidos pagados, enviados y entregados.')}
+  m.innerHTML = `${head('Resumen', 'Ventas de la tienda online. Los ingresos cuentan los pedidos pagados, enviados y entregados.')}<div data-banner>${checklistBanner()}</div>
     <div class="dash-filters">
       <div class="seg" role="group" aria-label="Periodo">${PERIODS.map(([d, l]) => `<button type="button" data-period="${d}" aria-pressed="${d === state.period}">${l}</button>`).join('')}</div>
     </div>

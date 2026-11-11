@@ -7,6 +7,7 @@ import { writeDoc, useBlob } from './_lib/store.js';
 import { getProducts, getSettings, baseProducts, ZONES, DEFAULT_SETTINGS } from './_lib/catalog.js';
 import { getIndex, getOrder, saveOrder, allOrders, rebuildIndex, addHistory, STATUSES, STATUS_LABEL, PAYMENT_METHODS } from './_lib/orders.js';
 import { emailConfigured, sendEmail, confirmationToCustomer, shippedToCustomer } from './_lib/email.js';
+import { getChecklist, setManual } from './_lib/checklist.js';
 
 const money = n => (n == null ? '—' : new Intl.NumberFormat('es-ES', { style: 'currency', currency: 'EUR', minimumFractionDigits: Number.isInteger(n) ? 0 : 2 }).format(n));
 
@@ -42,6 +43,8 @@ async function get(req, res) {
   }
 
   if (view === 'products') return send(res, 200, { products: await getProducts() }, nocache);
+
+  if (view === 'checklist') return send(res, 200, { items: await getChecklist() }, nocache);
 
   if (view === 'settings') {
     return send(res, 200, {
@@ -121,6 +124,11 @@ async function post(req, res, body) {
   }
 
   if (action === 'rebuild-index') return send(res, 200, { ok: true, count: await rebuildIndex() });
+
+  if (action === 'checklist') {
+    if (!(await setManual(String(body.item || ''), Boolean(body.done)))) throw httpError(400, 'Esta tarea se marca sola cuando está lista.');
+    return send(res, 200, { ok: true, items: await getChecklist() });
+  }
 
   // the rest act on one order
   const order = await getOrder(body.id);
